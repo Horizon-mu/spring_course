@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01_demo" />
+        <module name="02_demo" />
+        <module name="05_Spring_Mybatis" />
+        <module name="03_demo" />
+        <module name="spring_web" />
+        <module name="04_AOP_demo" />
+        <module name="spring_Transaction" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01_demo" target="13" />
+      <module name="02_demo" target="13" />
+      <module name="03_demo" target="13" />
+      <module name="04_AOP_demo" target="13" />
+      <module name="05_Spring_Mybatis" target="13" />
+      <module name="spring_Transaction" target="13" />
+      <module name="spring_web" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="03_demo" options="" />
+    </option>
+  </component>
+</project>

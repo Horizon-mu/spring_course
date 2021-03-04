@@ -1,0 +1,9 @@
+# Project exclude paths
+/01_demo/target/
+/02_demo/target/
+/03_demo/target/
+/04_AOP_demo/target/
+/05_Spring_Mybatis/target/
+/out/
+/spring_Transaction/target/
+/spring_web/target/
